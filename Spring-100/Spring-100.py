@@ -268,7 +268,7 @@ class compression:
                                     
                                     while f!=1:
                                         T1=Number_of_the_file%e
-                                        if  T1<(2**(Deep-Deep14)):
+                                        if  T1<(2**(Deep)):
                                                 Number_of_the_file=Number_of_the_file//e
                                                 g=T1
                                                 f=1
@@ -322,7 +322,7 @@ class compression:
                                     if compress_or_not_compress==1:
                                     	                          
                                             Equal_info_between_of_the_cirlce_of_the_file_23=bin(g)[2:]
-                                            hr=Deep-Deep14
+                                            hr=Deep
                                             
                                         	
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_23)
@@ -544,7 +544,7 @@ class compression:
                                                           
                                                                 Number_of_the_file2=Number_of_the_file1+Deep21
                                                                                            
-                                                                Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1-Number_of_the_file1:lenf6-Deep20]
+                                                                Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1-Deep20-Number_of_the_file1:lenf6-Deep20]
                                                         lenf62=len(Number_add_plus_one)
                                                         if lenf62!=0:
          
