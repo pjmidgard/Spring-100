@@ -268,7 +268,7 @@ class compression:
                                     
                                     while f!=1:
                                         T1=Number_of_the_file%e
-                                        if  T1>(2**(Deep-Deep14))-1:
+                                        if  T1<(2**(Deep-Deep14)):
                                                 Number_of_the_file=Number_of_the_file//e
                                                 g=T1
                                                 f=1
